@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="bus.Account" project="Fortis_Bank_System_Part1" 
+    file="/Fortis_Bank_System_Part1/src/bus/Account.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="458" y="124"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="bus.CheckingAccount" project="Fortis_Bank_System_Part1" 
+    file="/Fortis_Bank_System_Part1/src/bus/CheckingAccount.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="248" y="449"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="bus.SavingAccount" project="Fortis_Bank_System_Part1" 
+    file="/Fortis_Bank_System_Part1/src/bus/SavingAccount.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="358" width="226" x="718" y="116"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="bus.CreditAccount" project="Fortis_Bank_System_Part1" 
+    file="/Fortis_Bank_System_Part1/src/bus/CreditAccount.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="88" width="125" x="492" y="354"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="bus.Customer" project="Fortis_Bank_System_Part1" 
+    file="/Fortis_Bank_System_Part1/src/bus/Customer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="250" width="209" x="981" y="473"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="6" language="java" name="bus.EnumAccountType" project="Fortis_Bank_System_Part1" 
+    file="/Fortis_Bank_System_Part1/src/bus/EnumAccountType.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="160" width="245" x="1007" y="33"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <enumeration id="7" language="java" name="bus.EnumTransactionType" project="Fortis_Bank_System_Part1" 
+    file="/Fortis_Bank_System_Part1/src/bus/EnumTransactionType.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="142" width="219" x="1020" y="254"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <generalization id="8">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="9">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="10">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

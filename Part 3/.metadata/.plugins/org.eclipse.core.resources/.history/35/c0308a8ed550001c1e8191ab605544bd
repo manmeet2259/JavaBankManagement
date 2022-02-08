@@ -1,0 +1,27 @@
+package client;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class test {
+
+	public static void main(String[] args) {
+		String regEx = "^\\(?(\\d{3})\\)?[- ]?(\\d{3})[- ]?(\\d{4})$";
+		String phoneno = "(514)699 7147";
+		Pattern sample = Pattern.compile(regEx);
+		Matcher sampleMatcher = sample.matcher(phoneno);
+		
+		
+		if(sampleMatcher.matches())
+		{
+			System.out.print("True ok");
+		}
+		else
+		{
+			System.out.print("False");
+		}
+
+
+	}
+
+}

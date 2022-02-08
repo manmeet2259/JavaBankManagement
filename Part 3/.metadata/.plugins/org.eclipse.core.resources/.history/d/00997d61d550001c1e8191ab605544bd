@@ -1,0 +1,15 @@
+package client;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class test {
+
+	public static void main(String[] args) {
+		String regEx = "^\\(?(\\d{3})\\)?[- ]?(\\d{3})[- ]?(\\d{4})$";
+		  
+		
+
+	}
+
+}

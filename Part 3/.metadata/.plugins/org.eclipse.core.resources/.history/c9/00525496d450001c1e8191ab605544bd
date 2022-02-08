@@ -1,0 +1,17 @@
+package client;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class test {
+
+	public static void main(String[] args) {
+		Pattern pattern = Pattern.compile("^\\d{10}$");
+	    Matcher matcher = pattern.matcher("2055550125");
+	    System.out.print(matcher);
+		  
+		
+
+	}
+
+}
